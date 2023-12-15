@@ -47,9 +47,9 @@ public class Main {
         SocieteArrayList societe = new SocieteArrayList();
 
         // Create some employees
-        Employe employe1 = new Employe(1, "Zoghlami", "Dhirar", "IT", 2);
-        Employe employe2 = new Employe(2, "Zoghlami2", "Dhirar2", "HR", 3);
-        Employe employe3 = new Employe(3, "Zoghlami3", "Dhirar3", "Finance", 1);
+        entities.Employe employe1 = new entities.Employe(1, "Zoghlami", "Dhirar", "IT", 2);
+        entities.Employe employe2 = new entities.Employe(2, "Zoghlami2", "Dhirar2", "HR", 3);
+        entities.Employe employe3 = new entities.Employe(3, "Zoghlami3", "Dhirar3", "Finance", 1);
 
         // Add employees to the company
         societe.ajouterEmploye(employe1);
